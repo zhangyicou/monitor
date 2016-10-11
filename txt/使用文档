@@ -1,0 +1,11 @@
+1. 把com.tlong.aopadvice里的文件及其依赖的文件拷贝到fybj工程中
+2. 执行doc.sql里的db.sql文件，创建监控的库和表
+3. 拷贝以下配置到fybj工程的spring的context配置中，修改execution为需要监控系统资源的类
+	<!-- 声明通知类 -->
+    <bean id="aspectAdvice" class="com.tlong.aopadvice.AspectAdvice" />
+    <aop:config>
+        <aop:aspect id="aspectAdviceId" ref="aspectAdvice">
+        	<aop:around method="doAround" pointcut="execution(public * code.main.*.service.impl.*.*(..))"/>
+        </aop:aspect>
+    </aop:config>
+4. 重新启动fybj和monitor即可

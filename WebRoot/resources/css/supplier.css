@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"微软雅黑";} 
+
+/*重置*/
+.act_row{ float:none}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {font-family:"微软雅黑"; color:#333}
+
+a.greenbtn{ text-decoration:none}
+.mis_main{ min-width:1000px; width:100%; }
+  .mis_con{ width:auto; min-width:960px;}
+  .slt_wrap{ height:auto; padding:5px 0;}
+  .slt_wrap i{ margin-top:7px;}
+  .sup_tab a.g_size{ width:70px;}
+  
+  
+  .wd160{ width:160px;}
+  .wd100{ width:100px;}
+  .wd80{ width:80px;}
+  .wd60{ width:60px;}
+  .wd40{ width:40px;}
+
+.default_table thead tr{ background:#f3f3f3 }
+.default_table thead td,
+.default_table thead th{ font-size:14px;}
+.default_table td{ font-size:12px;}
+
+.default_table thead tr:hover{ background:#f3f3f3;  }
+
+.supp_tit{ position:relative;background:#edfce5; padding: 15px 20px; }
+.sup_tab .noborder td{ border:none; }
+.sup_tab thead .noborder td{color:#289913; padding-top:0;}
+.sup_tab .tdset{ border-bottom:none; padding-bottom: 10px}
+.sup_tab .noborder td.bd_r { border-right:1px solid #ccc;}
+.sup_tab a{ font-weight:bold}
+.sup_name{ color:#336633}
+.info_txt{ margin-top:30px; color:#f00; font-size:12px;}
+.supp_tit .back{ position:absolute; right:10px; top:15px; font-weight:bold}
+.supp_tit .back1{ position:absolute; right:270px; top:15px; font-weight:bold}
+
+.sup_txt { float:center; display:inline  }
+.sup_txt input{ border:none; outline:none; padding:5px 10px; }
+.sup_txtnew { float:left; border:1px solid #c7c7c7; display:inline  }
+.sup_txtnew input{ border:none; outline:none; padding:1px 5px; }
+
+.act_wrap em{ float:left; line-height:26px;}
+
+.p_center{ width:90%; margin:0 auto}
+.sup_area{ float:left; width:100%; }
+.sup_area textarea{ font-size:14px; height:100px; padding:6px; width:90%}
+a.greenbtn_act{ background:#497c3e; color:#fff;}
+
+/*订单自检*/
+
+.fail_info h3{ color:#555; font-size:14px; }
+.fail_info p{ margin-top:10px;}
+.order_search td em{ margin-right:6px;}
+.order_search td .txt{ text-align:left;}
+.order_search .supp_tit{ background:none}
+.order_search .con_list,
+.order_search .con_list p{ font-size:12px; text-align:left;}
+.order_search .con_list{padding:0 6px;}
+.fail_info em{ color:#f60; font-weight:bold; margin-right:4px; } 
+
+/*批量导入*/
+.sup_txt .file_area{ height:28px; padding:0;}
+.dr_btn{ margin-left:85px;}
+.templet{ margin-left:85px;}
+
+/*导入失败明细*/
+th{word-break:break-all;}
+.import_info{ color:#f60;}
+.errordetail_info{ color:#6633FF;}
+
+/*房价落地*/
+.info_txt{ text-align:left; margin:5px; line-height:20px;}
+.info_txt ul li{ margin-left:20px; font-size:12px;}
+.blod_txt{ font-weight:bold}
+
+/*ean静态信息抓取*/
+.ean_txt{ border:1px solid #c7c7c7; width:600px; min-height:300px; _height:300px;}
